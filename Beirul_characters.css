@@ -64,14 +64,14 @@ body.fixed-nav nav {
   box-shadow: 0 5px 0 rgba(0,0,0,0.1);
 }
 
-nav ul {
+.main-nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
 }
 
-nav li {
+.main-nav li {
   flex: 1;
   text-align: center;
   display: flex;
@@ -109,6 +109,20 @@ nav ul li a:hover {
   color: gold;
   font-size: 30px;
   text-decoration: none;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: center;
+}
+
+.fencer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Sub Menu */

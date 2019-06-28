@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Beirul</title>
+    <link rel = "stylesheet" type = "text/css" href = "Beirul_characters.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" style="text-decoration: none">
+        <h1>The world of Beirul</h1>
+      </a>
+    </header>
+
+    <nav id = "main" class="main-nav">
+      <ul>
+        <li class="logo">
+          <a href="index.html">ABOUT</a>
+          <ul class="dropdown-nav">
+
+          </ul>
+        </li>
+        <li class = "parent">
+          <a href = "history.html">History</a>
+          <ul class="dropdown-nav">
+            <li><a href="history.html">Coralia</a></li>
+            <li><a href="history.html">Elven Society</a></li>
+            <li><a href="history.html">Dead Coasters</a></li>
+          </ul>
+        </li>
+        <li class = "parent">
+          <a href = "geography.html">Geography</a>
+          <ul class="dropdown-nav">
+            <li><a href="geography.html">Coralia</a></li>
+            <li><a href="geography.html">Silver Haven</a></li>
+            <li><a href="geography.html">Wyvernpond</a></li>
+            <li><a href="geography.html">Southern Plain</a></li>
+            <li><a href="geography.html">Wild Gates</a></li>
+            <li><a href="geography.html">Tower of the Great Lich King</a></li>
+          </ul>
+        </li>
+        <li class = "parent">
+          <a href = "politics.html">Politics</a>
+          <ul class="dropdown-nav">
+            <li><a href="politics.html">The Guild of Coralia</a></li>
+            <li><a href="politics.html">Southern Eleven Confederation</a></li>
+            <li><a href="politics.html">The 5 Orc Tribes</a></li>
+            <li><a href="politics.html">The 6 Necromancer Clans</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </nav>
+
+    <div class="info-site-wrap">
+
+      <h2>Let's Populate Beirul</h2>
+
+      <img src="Half_elf_fencer.jpg" alt="fencer" style="width: 50%" class="fencer">
+
+      <p>
+        Would you like to create your own character that lives in this world.
+        Here click the button bellow and create your chraracter. Create a
+        chraracter that is part of the world, with a job, a family, dreams,
+        values and a life of their own. Make them feel real, but let your
+        imagination run wild.
+      </p>
+
+      <form class="character">
+        <fieldset>
+          <fieldset>
+            <legend>Character Identification</legend>
+            First Name: <input value="Kamir" type="text" name="firstname" id="firstname">
+
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+            Character's Race:
+            <select class="races" name="race" id="race">
+              <option>Human</option>
+              <option selected>Half Elf</option>
+              <option>Elf (high elf)</option>
+              <option>Elf (wood elf)</option>
+              <option>Drow (dark elf)</option>
+            </select>
+
+            <br>
+
+            Last Name: <input value="Kotar" type="text" name="lastname" id="lastname">
+
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp;
+
+            Age: <input value="19" type="number" name="age" id="age">
+            <br>
+            <br>
+
+            <div class="sexalign" id="sexalign" name="sexalign">
+            Alignment:
+            <select class="alignment" name="alignment" id="alignment">
+              <option selected>Lawful Good</option>
+              <option>Neutral Good</option>
+              <option>Chaotic Good</option>
+              <option>Lawful Neutral</option>
+              <option>True Neutral</option>
+              <option>Chaotic Neutral</option>
+              <option>Lawful Evil</option>
+              <option>Neutral Evil</option>
+              <option>Chaotic Evil</option>
+            </select>
+
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            Sex:
+            <select class="sex" name="sex" id="sex">
+              <option>Male</option>
+              <option selected>Female</option>
+
+            </select>
+            </div>
+
+          </fieldset>
+
+
+          <br>
+          <br>
+          <br>
+          <br>
+
+
+          <table width="100%">
+            <div class="classes" id="charclass" name="charclass">
+              <tbody>
+
+                  <tr>Players & NPC Classes:</tr>
+                  <br>
+                  <td>
+                    <tr>
+                      <input type="radio" name="class" value="Fighter"> Fighter
+                      <input type="radio" name="class" value="Paladin"> Paladin
+                      <input type="radio" name="class" value="Cleric"> Cleric
+                      <input type="radio" name="class" value="Druid"> Druid
+                      <input type="radio" name="class" value="Ranger"> Ranger
+                      <input type="radio" name="class" value="Rougue"> Rogue
+                      <input type="radio" name="class" value="Wizard"> Wizard
+                      <input type="radio" name="class" value="Warlock"> Warlock
+                    </tr>
+                  </td>
+
+                  <br>
+                  <br>
+                  <tr>
+                    NPC Classes:
+                  </tr>
+                  <br>
+                  <td>
+                    <tr>
+                      <input type="radio" name="class" value="Merchant"> Merchant
+                      <input type="radio" name="class" value="Taverner Owner"> Tavern Owner
+                      <input type="radio" name="class" value="Innkeeper"> Innkeeper
+                      <input type="radio" name="class" value="Banker"> Banker
+                      <input type="radio" name="class" value="Fisher"> Fisher
+                      <input type="radio" name="class" value="Slave"> Slave
+                    </tr>
+
+                  </td>
+
+              </tbody>
+            </div>
+
+          </table>
+          <fieldset>
+            <legend>Backstory</legend>
+
+            <p>Please write the backstory of your character in here</p>
+            <textarea name="name" rows="18" cols="105" id="textstory">
+              I am Kamir Kotar the Half-Elf fencer.
+            </textarea>
+          </fieldset>
+
+        </fieldset>
+
+      </form>
+      <div class="wrapper">
+        <button onclick="returningForm()" class="button">
+          Create Character form
+        </button>
+      </div>
+
+      <p id="completeform"></p>
+      <p id="backstory"></p>
+
+      <button onclick="reset()" class="button">
+        Reset
+      </button>
+    </div>
+
+
+
+  </body>
+
+  <script src="main_Beirulscripts.js"></script>
+
+</html>

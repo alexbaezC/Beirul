@@ -24,7 +24,7 @@ body.fixed-nav .site-wrap {
 header {
   text-align: center;
   height: 50vh;
-  background: url("Ruin castle.jpg") center no-repeat;
+  background: url("Ruin_castle.jpg") center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -109,6 +109,15 @@ nav ul li a:hover {
   color: gold;
   font-size: 30px;
   text-decoration: none;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: inherit;
+    top: 100%;
 }
 
 /* Sub Menu */
