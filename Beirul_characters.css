@@ -116,8 +116,13 @@ nav ul li a:hover {
 }
 
 .button {
-    position: inherit;
-    top: 100%;
+    position: center;
+}
+
+.fencer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Sub Menu */
