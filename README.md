@@ -21,13 +21,16 @@ This are the **files** contained in the **Beirul** repository:
 1. .DS_Store
 2. Beirul_geography.css
 3. Beirul_history.css
-4. Beirul_index.css
-5. Map_of_Cahuts.jpg
-6. Ruin_castle.jpg
-7. geography.html
-8. history.html
-9. index.html
-10. main_Beirulscripts.js
+4. Beirul_characters.css
+5. Beirul_index.css
+6. Map_of_Cahuts.jpg
+7. Ruin_castle.jpg
+8. geography.html
+9. history.html
+10. characters.html
+11. index.html
+12. main_Beirulscripts.js
+13. Half_elf_fencer.jpg
 
 ## Creator
 
